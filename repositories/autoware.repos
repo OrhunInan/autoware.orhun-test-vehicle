@@ -110,10 +110,10 @@ repositories:
     version: 0.2.0
 
   # launcher
-  launcher/autoware_launch:
-    type: git
-    url: https://github.com/autowarefoundation/autoware_launch.git
-    version: 0.51.0
+#  launcher/autoware_launch:
+#    type: git
+#    url: https://github.com/autowarefoundation/autoware_launch.git
+#    version: 0.51.0
 
   # sensor_component
   sensor_component/external/sensor_component_description:
@@ -138,3 +138,25 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/ros2_socketcan
     version: e39a814180b03f00a5692b6951a5d4e9f0463486
+  
+  #OrhunInan packages
+
+  sensor_kit/orhun_test_vehicle_sensor_kit_launch:
+  type: git
+  url: https://github.com/OrhunInan/sensor_kit_launch.orhun-test-vehicle.git
+  version: main
+
+  vehicle/orhun_test_vehicle_launch:
+  type: git
+  url: https://github.com/OrhunInan/vehicle_launch.orhun-test-vehicle.git
+  version: main
+
+  param/orhun_test_vehicle_individual_params:
+  type: git
+  url: https://github.com/OrhunInan/autoware_individual_params.orhun-test-vehicle.git
+  version: main
+
+  launcher/orhun_test_autoware_launch.tutorial_vehicle:
+  type: git
+  url: https://github.com/OrhunInan/autoware_launch.orhun-test-vehicle.git
+  version: main
